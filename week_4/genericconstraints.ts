@@ -3,7 +3,7 @@ interface Lengthwise {
 }
 
 function printLength<T extends Lengthwise>(item: T): number {
-    return item.length;
+    return item.length;g
 }
 
 console.log(printLength("TypeScript"));
